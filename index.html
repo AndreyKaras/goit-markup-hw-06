@@ -47,9 +47,7 @@
                             <use  href="./images/icons.svg#icon-close"> </use>
                         </svg> </button>
                         <form>
-                        <div class="modal-form">
                             <strong class="form-title"> Залиште свої дані, ми вам передзвонимо </strong>
-                            
                             <ul class="inputs-modal">
                            
                                 <li class="modal-list">
@@ -83,27 +81,22 @@
                                     <label for="comment" class="form-label form-label-comment unselected"> Коментар </label>
                                     <textarea class="form-comment" name="comment" id="comment" placeholder="Введіть текст" ></textarea>
                                 </li> 
+                            </ul>
 
                                 <div class="form-checkbox">
                                     <label  class="modal-checkbox unselected" for="policy">
-                                    <input type="checkbox" name="checkbox" value="checkbox" id="policy" class="checkbox" />
-                                    <span class="checkbox-svg">  
-                                            <svg class="checkbox-icon">
-                                                <use href="./images/icons.svg#icon-icon-check"></use>
-                                            </svg> 
-                                    </span>
-                                    Погоджуюся з розсилкою та приймаю 
-                                    <a class="list checkbox-link" href=""> Умови договору </a>
+                                        <input type="checkbox" name="checkbox" value="checkbox" id="policy" class="checkbox" />
+                                            <span class="checkbox-svg">  
+                                                <svg class="checkbox-icon">
+                                                    <use href="./images/icons.svg#icon-icon-check"></use>
+                                                </svg> 
+                                            </span> Погоджуюся з розсилкою та приймаю 
+                                        <a class="list checkbox-link" href=""> Умови договору </a>
                                     </label> 
-                                    
-                                </div>
-                              
-
-                                <button type="submit" class="second-hero-button">Відправити </button>
-                                
-                            </ul>
+                                    <button type="submit" class="second-hero-button">Відправити </button>
+                                </div> 
                         </form>
-                        </div>
+                        
                     
                     </div>
                 </div>
@@ -449,13 +442,15 @@
     <!-- form -->
     <div class="footer-form"> 
         <strong class="footer-title"> Підпишіться на розсилку </strong>
-        <div class="footer-send-item">
-            <input type="email" name="mail"  id="mail" class="footer-input" placeholder=" "/>  
-            <label for="mail" class="footer-label"> E-mail </label>
-            <button class="button-footer" type="submit"> Підписатися <svg class="footer-send-icon">
-                <use href="./images/icons.svg#icon-send"></use>
-            </svg> </button>
-         </div>
+        <form>
+            <div class="footer-send-item">
+                <input type="email" name="mail"  id="mail" class="footer-input" placeholder=" "/>  
+                <label for="mail" class="footer-label"> E-mail </label>
+                <button class="button-footer" type="submit"> Підписатися <svg class="footer-send-icon">
+                    <use href="./images/icons.svg#icon-send"></use>
+                </svg> </button>
+             </div>
+        </form>
     </div>
     
 </div>
